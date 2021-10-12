@@ -1,0 +1,39 @@
+h1,h2{
+    font-family: creepster;
+    text-align: center;
+    background-color: orange;
+    padding: 15x;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.card-body{
+    border: dotted black 15px;
+}
+
+p{
+    text-align: center;
+    font-family: amatic sc;
+    font-size: 25px;
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    font-family: amatic sc;
+    font-size: 35px;
+}
+
+/* body{
+    background-image: url(images/halloweenbackgroundpurple.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+} */
+
+
+
+
