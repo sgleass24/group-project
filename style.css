@@ -25,12 +25,46 @@ p{
     font-size: 25px;
     
 }
-
-ul{
+ ul{
     list-style: none;
     text-align: center;
     font-family: amatic sc;
     font-size: 35px;
+
+ }
+ ul li{
+    float: left;
+    list-style: none;
+    opacity: .5;
+}
+ul li a{
+    border: black solid 2px;
+    color: black;
+    margin-right: 5px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+text-align: center;
+}
+ul li a:hover{
+
+color: orange;
+font-size: 25px;
+}
+.dropdown li  a{
+height: 25px;
+line-height: 25px;
+padding: 10px;
+}
+.dropdown li{
+float: none;
+}
+li .dropdown {
+visibility: hidden;
+}
+li:hover .dropdown{
+visibility: visible;
+
 }
 
 .pumpkin:hover{
