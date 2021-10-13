@@ -7,6 +7,12 @@ h1,h2{
 
 h1{
     font-size: 60px;
+   
+}
+
+h1:hover{
+    transition-property: all;
+    transform: scale(2);
 }
 
 .card-body{
@@ -26,6 +32,96 @@ ul{
     font-family: amatic sc;
     font-size: 35px;
 }
+
+.pumpkin:hover{
+
+    transition-property:all;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transform:rotate3d(2, 2, 2, 360deg)
+    }
+
+.pumpkincar:hover{
+    transition-property: all;
+    position: absolute;
+    animation-name: mypumpkin;
+    animation-delay: 2s;
+    animation-iteration-count: 6;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+    animation-play-state: running;
+}
+
+@keyframes mypumpkin{
+    from{
+        left: -200px;
+    }
+    to{
+        right: 1000px;
+    }
+}
+
+h2:hover{
+    transition-property: all;
+    transition-duration: 2s;
+	transition-delay: 0s;
+    transform: translateY(-50px);
+        
+
+}
+
+ul li{
+    float: left;
+    list-style: none;
+    opacity: .5;
+}
+ul li a{
+    border: black solid 2px;
+    color: black;
+    margin-right: 5px;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+text-align: center;
+}
+ul li a:hover{
+color: orange;
+font-size: 25px;
+}
+.dropdown li  a{
+height: 25px;
+line-height: 25px;
+padding: 10px;
+}
+.dropdown li{
+float: none;
+}
+li .dropdown {
+visibility: hidden;
+}
+li:hover .dropdown{
+visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* body{
     background-image: url(images/halloweenbackgroundpurple.jpg);
